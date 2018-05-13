@@ -107,10 +107,11 @@ Fill in the environment variables based on your squad's credentials like below.
 
 ### Ready to Deploy
 
-1. Let's first make a change to github to check the build and deploy is now working, when you checkin a difference in the repository is identified and the build job is properly triggered in Wercker.
-So, depending on the language you chose, have your code opened and make the suggested change:
+1. Let's first make a change to the GitHub repository to check that the automated build and deploy is working. As soon as you commit a difference in the repository, Wercker will start a build job and deploy a new version to Application Container Cloud.
 
- **Node.JS**: Open the file *xwingnodeclient/app.js* and on the first line insert a comment line with some text.
+You can either make changes in the GitHub editor (as shown below) or clone your repository to your computer, make changes locally and then push the changes to the remote GitHub repository.  
+
+ **Node.js**: Open the file *xwingnodeclient/app.js* and on the first line insert a comment line with some text.
 ```                       
 eg: // My microservice!
 ```
@@ -122,19 +123,18 @@ eg: // My microservice!
 ```
 eg: // My microservice!
 ```
-2. Save the file
 
-3. Check the file into Git if you are working locally.
-```
-git add .
+The screenshots below shows changing a file for the Node.js weapon
+<img src="images/github_open.png">
+<img src="images/github_edit.png">
+<img src="images/github_change.png">
+<img src="images/github_save.png">
 
-git commit -m "My first commit"
+2. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://129.144.148.225. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
 
-git push
-```
-Or you could edit directly in GitHub.
+If you want, you can check the progress of the build inside Wercker by pressing Runs and the build you want to monitor.
 
-4. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://129.144.148.225. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
+<img src="images/wercker_runs.png">
 
 ## Mission: Scale your first fighter! ##
 
@@ -150,7 +150,7 @@ Your squad has now deployed one or several individual microservices (fighters). 
 
 1. Sign in to Application Container Cloud using the URL and credentials for your squad.
 
-The URL is: https://apaas.europe.oraclecloud.com/apaas/faces/aPaaSRunner.jspx
+The URL is: https://apaas.us.oraclecloud.com/paas/service/apaas/
 
 2. Click your deployed application (yours is identified by your GitHub username):
 
