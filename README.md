@@ -52,7 +52,7 @@ Your squad will get points as you complete missions. When you have completed all
 |PHP | https://github.com/oracledevstar/phpcode |
 
 1. Click on your preferred weapon's Git repository above and fork into your own repository. 
-<img src="images/github_fork.png">
+<img src="images/github_fork.PNG">
 
 ## Mission: Deploy your first fighter! ##
 
@@ -75,16 +75,16 @@ To deploy your fighter, you will use Continuous Integration and Deployment.
 
 1. Open a new window/tab on [https://app.wercker.com](https://app.wercker.com) and use the "Sign in with GitHub" button.
 
-<img src="images/wercker_signin.png">
+<img src="images/wercker_signin.PNG">
 
 2. Press Authorize Wercker
 
 3. Fill in a desired username and email address and press Finish Up.
-<img src="images/wercker_setup.png">
+<img src="images/wercker_setup.PNG">
 
 4. On the landing page, press **Create your first application**. Alternatively, select **Pipelines** and click **Create an application** to create a new pipeline. 
 
-<img src="images/wercker_welcome.png">
+<img src="images/wercker_welcome.PNG">
 
 5. Select the application owner. Use the default user and don't select an organization in case you already have one. Press **Next**.
 
@@ -98,12 +98,12 @@ It is now time to configure the deployment pipeline. For Wercker to know how it 
 
 9. Go to the Enviroment tab.
 
-<img src="images/wercker_envTab.png">
+<img src="images/wercker_envTab.PNG">
 
 10. **Now is the time to select your squad!** Have a look at the squad credentials document. Note that the username, password, identity domain and identifier are unique for a squad. **Make sure your select the credentials for the squad you want to belong to!**
 Fill in the environment variables based on your squad's credentials like below.
 
-<img src="images/wercker_envProps.png">
+<img src="images/wercker_envProps.PNG">
 
 ### Ready to Deploy
 
@@ -125,16 +125,16 @@ eg: // My microservice!
 ```
 
 The screenshots below shows changing a file for the Node.js weapon
-<img src="images/github_open.png">
-<img src="images/github_edit.png">
-<img src="images/github_change.png">
-<img src="images/github_save.png">
+<img src="images/github_open.PNG">
+<img src="images/github_edit.PNG">
+<img src="images/github_change.PNG">
+<img src="images/github_save.PNG">
 
 2. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://129.144.148.225. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
 
 If you want, you can check the progress of the build inside Wercker by pressing Runs and the build you want to monitor.
 
-<img src="images/wercker_runs.png">
+<img src="images/wercker_runs.PNG">
 
 ## Mission: Scale your first fighter! ##
 
