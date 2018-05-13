@@ -51,7 +51,7 @@ Your squad will get points as you complete missions. When you have completed all
 | Java SE     |   https://github.com/oracledevstar/javacode |
 |PHP | https://github.com/oracledevstar/phpcode |
 
-1. Click on your preferred weapon's Git repository above and fork into your own repository. 
+1. Click (or right click and open in a new tab) on your preferred weapon's Git repository above and fork into your own repository. 
 <img src="images/github_fork.PNG">
 
 ## Mission: Deploy your first fighter! ##
@@ -154,7 +154,7 @@ Your squad has now deployed one or several individual microservices (fighters). 
 
 1. Sign in to Application Container Cloud using the URL and credentials for your squad. You need to use the same identity domain, username and password that you used in the Wercker step before.
 
-The URL is: https://psm-YOUR_IDENTITY_DOMAIN_GOES_HERE.console.oraclecloud.com/apaas/faces/aPaaSRunner.jspx
+You need to enter your identity domain in the URL as: https://psm-YOUR_IDENTITY_DOMAIN_GOES_HERE.console.oraclecloud.com/apaas/faces/aPaaSRunner.jspx
 
 2. Click your deployed application (yours is identified by your GitHub username).
 <img src="images/accs_app.PNG">
@@ -236,7 +236,7 @@ The spy should now have exposed the secrets of the database where the Alien War 
 - Number of points for this mission: **500**
 
 ### Mission Instructions ###
-1. You should now have received information from the spy about the credentials to the Alien War Ship's MySQL database where the coordinates for the Core Reactor is kept. Develop a MySQL query that queries the **SecretTable** to retrieve information about the Reactor Core coordinates! The Host IP address of the database is  **129.144.148.225**
+1. Check the spy for the credentials to the Alien War Ship's MySQL database where the coordinates for the Core Reactor is kept. Develop a MySQL query that queries the **SecretTable** to retrieve information about the Reactor Core coordinates! The Host IP address of the database is  **129.144.148.225**
 
 2. When you have the coordinates, hit the Reactor Core at the following URL:
 ```http://129.144.148.225:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```.
