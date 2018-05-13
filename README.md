@@ -5,28 +5,21 @@
 
 <img src="images/spaceship.png">
 
-In this adventure you will work together in squads to complete the mission – becoming the Dev Star.
+In this adventure you will pledge allegiance to one of the rebel squads, with one goal  – becoming the Dev Star.
 
 Choose your platform space fighter of choice (Node.js, Java or PHP) and develop and deploy cloud native microservices that will help defeat the Alien War Ship.
 
-You will learn how to build, manage and deploy cloud native microservices.
+To complete the different missions, you will to build, manage and deploy cloud native microservices.
 
-+ You will learn how to manage the source control, continuous integration and continuous deployment of your microservices in a DevOps manner.
++ You will use GitHub to manage the source control and Wercker for continuous integration and continuous deployment of your microservices, in a quick and agile way.
 + You will explore and perform actions related to scaling and operating your microservices.
-+ You will use your creativity and team play to develop features to your microservices that will help your team win!
-
-### Prerequisites ###
-
-Laptop with a browser. 
-GitHub Account.
-
-Familiarity with any of the following coding languages is an advantage: Java, PHP or Node.js.
++ You will use your creativity to develop features to your microservices that will help you and your squad win!
 
 ## Introduction ##
 
-The Alien War Ship needs to be defeated. You and your space microservice fighters are the last hope for planet Earth!
+The Alien War Ship needs to be defeated. You, your squad and your space microservice fighters are the last hope for planet Earth!
 
-The adventure is intense and a set of missions must be accomplished in order to achieve the desired victory!
+The adventure is intense and a set of missions must be accomplished in order to achieve the desired victory! 
 
 <img align="left" src="images/devstar_spy.png" width = "60px">
 
@@ -36,30 +29,17 @@ Fortunately, one of our companions is a spy, Tom Kurious, and have managed to sn
 
 #### Objective ####
 
-By developing space fighters (microservices) in either Java, Node.js or PHP, you will complete missions in order to defeat the Alien War Ship. The missions will be explained in the instructions, but you can't complete some of the missions without valuable information from the spy.
-
-#### Squads ####
-
-You work together in squads with the common goal to defeat the Alien War Ship. A squad can consist of any number of members and skill level. When someone in the squad completes a mission on behalf of the squad, the mission will be deemed completed for the entire squad. This means that if another squad member completes the same mission, it will not give extra points.
+By developing space fighters (microservices) in either Java, Node.js or PHP, you will complete missions in order to defeat the Alien War Ship. The missions will be explained in the instructions below, but you can't complete some of the missions without valuable information from the spy.
 
 ## Scoring ##
 
-The points are obtained as your squad completes the missions. The sooner your team completes a mission, the more points you will get. But don't worry, also the last squad to complete a mission will give valuable damage to the Alien War Ship.
+Your squad will get points as you complete missions. When you have completed all the missions - you will be placed on the Hall Of Fame list and can title yourself a Dev Star! The quicker you complete the missions, the higher you will place yourself on the Hall of Fame list.
 
-## Squad ##
-
-You should now have been assigned a squad and should have the following. If you have not been assigned please speak to Martin.
-
- - Squad Name
- - Username
- - Password
- - Identity Domain
- - Rest API Address
- - Address to log into the cloud portal
+## Let's go! ##
 
  It is now time to select your weapon of choice.
 
-+ Weapon selection strategy is completely up to your preference. Every squad members can have the same weapon, different weapons or chose to have no weapon at all.
++ Weapon selection strategy is completely up to your preference.
 + Each git repository includes the basic code that is needed in order to run and deploy your microservice to the battle action!
 
 | [![Node](images/nodejs.png)](https://github.com/thebeebs/xwingnodeclient) | [![Java](images/javase.png)](https://github.com/thebeebs/xwingjavaclient) | [![PHP](images/php.png)](https://github.com/thebeebs/xwingphpclient) |
@@ -71,33 +51,26 @@ You should now have been assigned a squad and should have the following. If you 
 | Java SE     |   https://github.com/thebeebs/xwingjavaclient |
 |PHP | [https://github.com/thebeebs/xwingphpclient](https://github.com/thebeebs/xwingphpclient) |
 
-2. Go to the preferred Weapon's Git Repo and fork into your own repository. Either clone this repo locally or you can simply work on GitHub and edit the files if you do not not have local development tools that you would prefer to use.
+2. Go to the preferred weapon's Git repository above and fork into your own repository. Either clone this repo locally or you can simply work on GitHub and edit the files if you do not not have local development tools that you would prefer to use.
+
+TODO: Provide instructions here. For GitHub but also local commands.
 
 3. You should now successfully have cloned the code to your laptop.
 
 ## Mission: Deploy your first fighter! ##
 
-Before you start your first mission, make sure you are ready as per below
-
-- [x] You understand the goal of the workshop
-- [x] You have grouped together with your squad
-- [x] You have received your squad's, Name,  Identitiy Domain, the username and the password
-- [x] You have selected which weapon you, as a member of your squad, will be using
-- [x] You are able to clone the source code of your weapon to your development environment.
-
 ### Mission Description ###
 
-In order to take up the battle against the Alien War Ship, your squad would need to deploy at least one space fighter (microservice) to the cloud.
+In order to take up the battle against the Alien War Ship, your need to deploy your space fighter (microservice) to the cloud.
 
 ### Mission Awards ###
 
-- Maximum number of points for this mission: **100**
-- Lesser points will be given to subsequent squads.
+- Number of points for this mission: **100**
 
 ### Mission Instructions ###
 
 To deploy your fighter, you will use Continuous Integration and Deployment.
-+ In short, the **Continuous Integration and Deployment** strategy means that you push the code from your development environment to the Git repository. Werker will then automatically build, package and deploy your application to Application Container Cloud. 
++ In short, when you push the code from your development environment or perform a change in the GitHub editor for the Git repository. Werker will then automatically build, package and deploy your application to Application Container Cloud. 
 
 You will not to have to worry about compilation, package and deployment.
 
