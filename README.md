@@ -5,15 +5,15 @@
 
 <img src="images/spaceship.png">
 
-In this adventure you will pledge allegiance to one of the rebel squads, with one goal  – becoming the Dev Star.
+In this adventure you will pledge allegiance to one of the rebel squads, everyone sharing the same goal  – becoming the Dev Star.
 
-Choose your platform space fighter of choice (Node.js, Java or PHP) and develop and deploy cloud native microservices that will help defeat the Alien War Ship.
+Choose your space fighter platform of choice (Node.js, Java or PHP) and develop and deploy cloud native microservices that will help defeat the Alien War Ship.
 
-To complete the different missions, you will to build, manage and deploy cloud native microservices.
+To complete the different missions, you will build, manage and deploy cloud native microservices.
 
-+ You will use GitHub to manage the source control and Wercker for continuous integration and continuous deployment of your microservices, in a quick and agile way.
++ You will use GitHub to manage the source control. You will use Wercker for continuous integration and continuous deployment of your microservices, in a quick and agile way.
 + You will explore and perform actions related to scaling and operating your microservices.
-+ You will use your creativity to develop features to your microservices that will help you and your squad win!
++ You will use your creativity to develop features to your microservices that will help your squad win!
 
 ## Introduction ##
 
@@ -23,7 +23,7 @@ The adventure is intense and a set of missions must be accomplished in order to 
 
 <img align="left" src="images/devstar_spy.png" width = "60px">
 
-Fortunately, one of our companions is a spy, Tom Kurious, and have managed to sneak into the Alien War Ship. During our missions, he will report valueable information that might help us bring down the Alien War Ship!
+Fortunately, one of our companions is a spy, Tom Kurious, and he have managed to sneak into the Alien War Ship. During our missions, he will report valueable information that might help us to bring down the Alien War Ship!
 
 ## How to play ##
 
@@ -47,9 +47,9 @@ Your squad will get points as you complete missions. When you have completed all
 
 | Weapon        | Git Repo to Fork  |
 | ------------- | -----|
-| Node.js       |https://github.com/thebeebs/xwingnodeclient|
-| Java SE     |   https://github.com/thebeebs/xwingjavaclient |
-|PHP | [https://github.com/thebeebs/xwingphpclient](https://github.com/thebeebs/xwingphpclient) |
+| Node.js       |https://github.com/oracledevstar/nodecode|
+| Java SE     |   https://github.com/oracledevstar/javacode |
+|PHP | [https://github.com/oracledevstar/phpcode] |
 
 2. Go to the preferred weapon's Git repository above and fork into your own repository. Either clone this repo locally or you can simply work on GitHub and edit the files if you do not not have local development tools that you would prefer to use.
 
