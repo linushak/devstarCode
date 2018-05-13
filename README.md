@@ -1,5 +1,5 @@
 
-# Microservices - The DevStar #
+# Become the Dev Star #
 
 ## Introduction ##
 
