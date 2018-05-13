@@ -70,13 +70,11 @@ In order to take up the battle against the Alien War Ship, your need to deploy y
 ### Mission Instructions ###
 
 To deploy your fighter, you will use Continuous Integration and Deployment.
-+ In short, when you push the code from your development environment or perform a change in the GitHub editor for the Git repository. Werker will then automatically build, package and deploy your application to Application Container Cloud. 
++ First you will connect your cloned GitHub repostiory to a Continuous Integration and Deployment pipeline using Wercker.
++ You will then perform a change on your code.
++ Werker will then automatically build, package and deploy your application to Application Container Cloud. 
 
-You will not to have to worry about compilation, package and deployment.
-
-Since your code is already cloned, all you need to do is to make a change on it, commit the change to the local repository and push it to the remote original repository on Github. Or you Could even edit the files directly on GitHub.
-
-To Get this deployment working we will need to create an Account with Wercker.
+**Setting up the Continuous Integration and Deployment pipeline
 
 - Open a browser window on [https://github.com](https://github.com) and sign in using your GitHub Account.
 - Open a second window on [https://app.wercker.com](https://app.wercker.com) and use the "Sign in with GitHub" button.
@@ -152,20 +150,19 @@ Or you could edit directly in GitHub.
 
 ### Mission Description ###
 
-Your squad has now deployed one or several individual microservices (fighters). Our next mission will be add to another fighter to the squad by scaling up the number of instances for one of them.
+Your squad has now deployed one or several individual microservices (fighters). Our next mission will be add to another fighter to the squad by scaling up the number of instances for your fighter.
 
 ### Mission Awards ###
 
-- Maximum number of points for this mission: **100**
-- Lesser points will be given to subsequent squads.
+- Number of points for this mission: **100**
 
 ### Mission Instructions ###
 
-1. Sign in to Application Container Cloud using the URL and credentials you were given by Martin.
+1. Sign in to Application Container Cloud using the URL and credentials for your squad.
 
 The URL is: https://apaas.europe.oraclecloud.com/apaas/faces/aPaaSRunner.jspx
 
-2. Click your deployed application (yours is identified by your usernumber):
+2. Click your deployed application (yours is identified by your GitHub username):
 
 3. Click your deployed application. If your microservice is deployed, you can view the logs. [Click here](../logs.md) for instructions on how to view the logs. **Before you continue to the next step, make sure that you are able to retrieve and read the logs from your running application!**
 
