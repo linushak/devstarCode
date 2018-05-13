@@ -71,16 +71,15 @@ To deploy your fighter, you will use Continuous Integration and Deployment.
 + You will then perform a change on your code.
 + Werker will then automatically build, package and deploy your application to Application Container Cloud. 
 
-**Setting up the Continuous Integration and Deployment pipeline
+**Setting up the Continuous Integration and Deployment pipeline**
 
-1. Open a new window/tab on [https://app.wercker.com](https://app.wercker.com) and use the "Sign in with GitHub" button.
+1. Open a new window/tab on [https://app.wercker.com](https://app.wercker.com) and use the "Log in in with GitHub" button.
 
 <img src="images/wercker_signin.PNG">
 
 2. Press Authorize Wercker
 
 3. Fill in a desired username and email address and press Finish Up.
-<img src="images/wercker_setup.PNG">
 
 4. On the landing page, press **Create your first application**. Alternatively, select **Pipelines** and click **Create an application** to create a new pipeline. 
 
