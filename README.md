@@ -175,16 +175,14 @@ The URL is: https://apaas.europe.oraclecloud.com/apaas/faces/aPaaSRunner.jspx
 Your squad is ready and it should now have one or more microservices with at least one of them having 2 instances.
 <img align="right" src="images/spaceship_shield.png" width = "400px">
 The Alien War Ship is protected by it's powerful shield. As long as we can't break through the shield, we will have a hard time hitting the core reactors of the Alien War Ship.
-To start firing at the shield, we first need to have the Alien War Ship exposing it's coordinates. Keep an eye out on what our spy is saying. It should be in the SPY section of the Dashboard.
 
 ### Mission Awards ###
 
-- Maximum number of points for this mission: **300**
-- Lesser points will be given to subsequent squads.
+- Number of points for this mission: **300**
 
 ### Mission Instructions ###
 
-1. Make sure that our spy has reported some more information about the coordinates of the shield. If not, you have to wait a bit!
+1. To start firing at the shield, we first need to have the Alien War Ship exposing it's coordinates. In the Dashboard, click on the Spy to see if he has anything to reveal.Q
 
 2. We now need to fire at the coordinates of the shield! You will do this by changing the code in your microservice and deploy the new version. 
 
@@ -192,7 +190,7 @@ To start firing at the shield, we first need to have the Alien War Ship exposing
 - For Node.js, the file is located at xwingnodeclient/app.js (in the folder where you locally cloned the code)
 - For PHP, the file is located at index.php (in the folder where you locally cloned the code)
 
-The base URL of the shield is ```http://129.144.148.225:3000/shield/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_name_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```. **The shield will get hit by HTTP GET Request bullets!**
+The base URL of the shield is ```http://129.144.148.225:3000/shield/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```. **The shield will get hit by HTTP GET Request bullets!**
 
 **Hint: Make sure that your code/function is actually being called **
 
@@ -213,14 +211,13 @@ The Alien War Ship has sent out 10 Mini Fighters to attack your fighters! You ne
 
 ### Mission Awards ###
 
-- Maximum number of points for this mission: **500**
-- Lesser points will be given to subsequent squads.
+- Number of points for this mission: **500**
 
 ### Mission Instructions ###
 
-1. You should now have received information from the spy that will give you the y-coordinates of the Mini Fighters. The example below would shoot down ***one*** of the Mini Fighters. ***The x-coordinate is locked at coordinate 45***.
+1. You should now have received information from the spy that will give you the y-coordinates of the Mini Fighters. The example below would shoot down ***one*** of the Mini Fighters. ***The x-coordinate is always locked at coordinate 45***.
 
-```http://129.144.148.225:3000/fighters/45/y-coordinate_goes_here/Your_squad_name_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```. **The Mini Fighters will get hit by HTTP GET Request bullets!**
+```http://129.144.148.225:3000/fighters/45/y-coordinate_goes_here/Your_squad_color_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```. **The Mini Fighters will get hit by HTTP GET Request bullets!**
 
 **Hint: Notice the changed endpoint 'fighters'**
 
@@ -239,14 +236,13 @@ The spy should now have exposed the secrets of the database where the Alien War 
 
 ### Mission Awards ###
 
-- Maximum number of points for this mission: **500**
-- Lesser points will be given to subsequent squads.
+- Number of points for this mission: **500**
 
 ### Mission Instructions ###
 1. You should now have received information from the spy about the credentials to the Alien War Ship's MySQL database where the coordinates for the Core Reactor is kept. Develop a MySQL query that queries the **SecretTable** to retrieve information about the Reactor Core coordinates! The Host IP address of the database is  **129.144.148.225**
 
 2. When you have the coordinates, hit the Reactor Core at the following URL:
-```http://129.144.148.225:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_name_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```.
+```http://129.144.148.225:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```.
 **The Reactor Core will get hit by HTTP GET Request bullets!**
 
 **Hint: Notice the changed endpoint 'reactorCore'**
@@ -259,7 +255,7 @@ The spy should now have exposed the secrets of the database where the Alien War 
 
 ### You are finished ###
 
-Congratulations! You are finished! If the Alien War Ship is still alive, help out your colleagues!
+Congratulations! You are finished and you have shut down the Alien War Ship. You can now title yourself a Dev Star. Check out the Hall of Fame on the dashboard for your final ranking!
 
 ### Next Step ###
 
