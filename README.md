@@ -49,13 +49,10 @@ Your squad will get points as you complete missions. When you have completed all
 | ------------- | -----|
 | Node.js       |https://github.com/oracledevstar/nodecode|
 | Java SE     |   https://github.com/oracledevstar/javacode |
-|PHP | [https://github.com/oracledevstar/phpcode] |
+|PHP | https://github.com/oracledevstar/phpcode |
 
-2. Go to the preferred weapon's Git repository above and fork into your own repository. Either clone this repo locally or you can simply work on GitHub and edit the files if you do not not have local development tools that you would prefer to use.
-
-TODO: Provide instructions here. For GitHub but also local commands.
-
-3. You should now successfully have cloned the code to your laptop.
+1. Click on your preferred weapon's Git repository above and fork into your own repository. 
+<img src="images/github_fork.png">
 
 ## Mission: Deploy your first fighter! ##
 
@@ -76,46 +73,39 @@ To deploy your fighter, you will use Continuous Integration and Deployment.
 
 **Setting up the Continuous Integration and Deployment pipeline
 
-- Open a browser window on [https://github.com](https://github.com) and sign in using your GitHub Account.
-- Open a second window on [https://app.wercker.com](https://app.wercker.com) and use the "Sign in with GitHub" button.
+1. Open a new window/tab on [https://app.wercker.com](https://app.wercker.com) and use the "Sign in with GitHub" button.
 
-Now you have created a Wercker account you need to add our application.
+<img src="images/wercker_signin.png">
 
-### Create application pipelines ###
+2. Press Authorize Wercker
 
-Change to the browser where [https://app.wercker.com](https://app.wercker.com) is open. Select **Pipelines** and click **Create an application** to create a new pipeline. (You can click on the plus sign at the top right corner and select **Add application** too.)
+3. Fill in a desired username and email address and press Finish Up.
+<img src="images/wercker_setup.png">
 
-Select the application owner. Use the default user and don't select the organization if exists.
+4. On the landing page, press **Create your first application**. Alternatively, select **Pipelines** and click **Create an application** to create a new pipeline. 
 
-Now select the repository you just forked. Next click **Use selected repo**.
+<img src="images/wercker_welcome.png">
 
-In case of private repositories you should define the access method. Since the the sample repository created as public you can leave the default checkout method. Click **Next step**.
+5. Select the application owner. Use the default user and don't select an organization in case you already have one. Press **Next**.
 
-Finally you can choose whether your application is public or not. We recommend to leave default which means the application will be private. Click **Finish** to create your application.
+6. Now select the repository you just forked and click **Next**.
 
-You will now land on a page where you are invited to create a new wercker.yml file
+7. For the Configure Access dialog, keep the default and press **Next**.
 
-**We will not do this here, as our wercker.yml file is already on the top level of our Github repository**
+8. Finally, press **Create** to create your application.
 
-Next Go to the Enviroment Tab. And Set up The following enviroment variables:
+It is now time to configure the deployment pipeline. For Wercker to know how it should deploy your application to the Oracle Application Container Cloud, it will need a couple of environment properties. 
 
-![Environment Variables](images/wercker-environment-variables.png)
+9. Go to the Enviroment tab.
 
-All the details should be in the credentials handout. The API is:
+<img src="images/wercker_envTab.png">
 
+10. **Now is the time to select your squad!** Have a look at the squad credentials document. Note that the username, password, identity domain and identifier are unique for a squad. **Make sure your select the credentials for the squad you want to belong to!**
+Fill in the environment variables based on your squad's credentials like below.
 
-
-| Key        | Value           |
-| ------------- |-------------|
-| OPC_USERNAME      | In hand out | 
-| OPC_PASSWORD      | In hand out | 
-| REST_URL | https://apaas.europe.oraclecloud.com/paas/service/apaas/api/v1.1/apps  | 
-| IDENTITY_DOMAIN | In hand out | 
-
-
+<img src="images/wercker_envProps.png">
 
 ### Ready to Deploy
-
 
 1. Let's first make a change to github to check the build and deploy is now working, when you checkin a difference in the repository is identified and the build job is properly triggered in Wercker.
 So, depending on the language you chose, have your code opened and make the suggested change:
