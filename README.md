@@ -124,12 +124,17 @@ eg: // My microservice!
 ```
 
 The screenshots below shows changing a file for the Node.js weapon
+
+2. Go to your GitHub repository that you forked earlier. Select a file depending on your selected language (as described above).
 <img src="images/github_open.PNG">
+3. Press the Edit icon to start making changes to the file
 <img src="images/github_edit.PNG">
+4. Make a small change
 <img src="images/github_change.PNG">
+5. Save the file and commit the changes.
 <img src="images/github_save.PNG">
 
-2. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://129.144.148.225. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
+6. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://129.144.148.225. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
 
 If you want, you can check the progress of the build inside Wercker by pressing Runs and the build you want to monitor.
 
@@ -147,21 +152,24 @@ Your squad has now deployed one or several individual microservices (fighters). 
 
 ### Mission Instructions ###
 
-1. Sign in to Application Container Cloud using the URL and credentials for your squad.
+1. Sign in to Application Container Cloud using the URL and credentials for your squad. You need to use the same identity domain, username and password that you used in the Wercker step before.
 
-The URL is: https://apaas.us.oraclecloud.com/paas/service/apaas/
+The URL is: https://psm-YOUR_IDENTITY_DOMAIN_GOES_HERE.console.oraclecloud.com/apaas/faces/aPaaSRunner.jspx
 
-2. Click your deployed application (yours is identified by your GitHub username):
+2. Click your deployed application (yours is identified by your GitHub username).
+<img src="images/accs_app.PNG">
 
-3. Click your deployed application. If your microservice is deployed, you can view the logs. [Click here](../logs.md) for instructions on how to view the logs. **Before you continue to the next step, make sure that you are able to retrieve and read the logs from your running application!**
+3. If your microservice is already deployed, you can view the logs. [Click here](../logs.md) for instructions on how to view the logs. **Before you continue to the next step, make sure that you are able to retrieve and read the logs from your running application!**
 
 4. You should now understand how to view the logs of your deployed application, if not, check the previous step before you continue. Increment the number of instances to 2. Please note that adding more than 1 instances do not give you any more points or advantages.
+<img src="images/accs_scale.PNG">
+
 
 ## Mission: Take down the shield! ##
 
 ### Mission Description ###
 
-Your squad is ready and it should now have one or more microservices with at least one of them having 2 instances.
+You and your squad are ready and you should now have one or more microservices with at least one of them having 2 instances.
 <img align="right" src="images/spaceship_shield.png" width = "400px">
 The Alien War Ship is protected by it's powerful shield. As long as we can't break through the shield, we will have a hard time hitting the core reactors of the Alien War Ship.
 
@@ -171,7 +179,7 @@ The Alien War Ship is protected by it's powerful shield. As long as we can't bre
 
 ### Mission Instructions ###
 
-1. To start firing at the shield, we first need to have the Alien War Ship exposing it's coordinates. In the Dashboard, click on the Spy to see if he has anything to reveal.Q
+1. To start firing at the shield, we first need to have the Alien War Ship exposing it's coordinates. In the Dashboard, click on the Spy to see what information he has to share.
 
 2. We now need to fire at the coordinates of the shield! You will do this by changing the code in your microservice and deploy the new version. 
 
@@ -185,7 +193,7 @@ The base URL of the shield is ```http://129.144.148.225:3000/shield/x-coordinate
 
 You need to look through your App.java, app.js or index.php file depending on your language and find out what changes you will need to make to invoke the shield's URL!
 
-3. Deploy a new version of your microservice by pushing the edited code to the Git repository in the same way as for your first deployment. 
+3. Deploy a new version of your microservice by either a) change the file the GitHub editor as instructed before or b) push the edited code to the Git repository.
 
 4. When your updated microservice is live, it will hopefully hit the Alien War Ship's shield!
 
@@ -245,10 +253,6 @@ The spy should now have exposed the secrets of the database where the Alien War 
 ### You are finished ###
 
 Congratulations! You are finished and you have shut down the Alien War Ship. You can now title yourself a Dev Star. Check out the Hall of Fame on the dashboard for your final ranking!
-
-### Next Step ###
-
-Take a Fee $300 trail out today http://thebeebs.uk/codeadventures (speak to Thrasos if you are having trouble) and create your own ACCS (Application Container Cloud Cluster). Once you have created it and deployed an application to it let me know at martin.beeby@oracle.com and I will send you some Oracle goodies as a thank you.
 
 
 
