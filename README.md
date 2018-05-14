@@ -134,7 +134,7 @@ The screenshots below shows changing a file for the Node.js weapon
 5. Save the file and commit the changes.
 <img src="images/github_save.PNG">
 
-6. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://129.144.148.225. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
+6. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://bit.ly/DevStarUI. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
 
 If you want, you can check the progress of the build inside Wercker by pressing Runs and the build you want to monitor.
 
