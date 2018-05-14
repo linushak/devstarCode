@@ -126,12 +126,19 @@ eg: // My microservice!
 The screenshots below shows changing a file for the Node.js weapon
 
 2. Go to your GitHub repository that you forked earlier. Select a file depending on your selected language (as described above).
+
 <img src="images/github_open.PNG">
+
 3. Press the Edit icon to start making changes to the file
+
 <img src="images/github_edit.PNG">
+
 4. Make a small change
+
 <img src="images/github_change.PNG">
+
 5. Save the file and commit the changes.
+
 <img src="images/github_save.PNG">
 
 6. Monitor the Dev Star dashboard to await your fighter being deployed! If you can't see the Dashboard well on the projector/screen, just open the following url http://bit.ly/DevStarUI. Your space fighter should appear in the dashboard and complete it's first strike to the Alien War Ship!
@@ -159,7 +166,7 @@ You need to enter your identity domain in the URL as: https://psm-YOUR_IDENTITY_
 2. Click your deployed application (yours is identified by your GitHub username).
 <img src="images/accs_app.PNG">
 
-3. If your microservice is already deployed, you can view the logs. [Click here](../logs.md) for instructions on how to view the logs. **Before you continue to the next step, make sure that you are able to retrieve and read the logs from your running application!**
+3. If your microservice is already deployed, you can view the logs. [Click here](logs.md) for instructions on how to view the logs. **Before you continue to the next step, make sure that you are able to retrieve and read the logs from your running application!**
 
 4. You should now understand how to view the logs of your deployed application, if not, check the previous step before you continue. Increment the number of instances to 2. Please note that adding more than 1 instances do not give you any more points or advantages.
 <img src="images/accs_scale.PNG">
@@ -183,11 +190,11 @@ The Alien War Ship is protected by it's powerful shield. As long as we can't bre
 
 2. We now need to fire at the coordinates of the shield! You will do this by changing the code in your microservice and deploy the new version. 
 
-- For Java, the file is located at src/main/java/com/example/rest/App.java (in the folder where you locally cloned the code)
-- For Node.js, the file is located at xwingnodeclient/app.js (in the folder where you locally cloned the code)
-- For PHP, the file is located at index.php (in the folder where you locally cloned the code)
+- For Java, the file is located at src/main/java/com/example/rest/App.java 
+- For Node.js, the file is located at xwingnodeclient/app.js 
+- For PHP, the file is located at index.php
 
-The base URL of the shield is ```http://129.157.179.180:3000/shield/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```. **The shield will get hit by HTTP GET Request bullets!**
+The base URL of the shield is ```http://129.157.179.180:3000/shield/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```. **The shield will get hit by HTTP GET Request bullets!**
 
 **Hint: Make sure that your code/function is actually being called **
 
@@ -214,7 +221,7 @@ The Alien War Ship has sent out 10 Mini Fighters to attack your fighters! You ne
 
 1. You should now have received information from the spy that will give you the y-coordinates of the Mini Fighters. The example below would shoot down ***one*** of the Mini Fighters. ***The x-coordinate is always locked at coordinate 45***.
 
-```http://129.157.179.180:3000/fighters/45/y-coordinate_goes_here/Your_squad_color_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```. **The Mini Fighters will get hit by HTTP GET Request bullets!**
+```http://129.157.179.180:3000/fighters/45/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```. **The Mini Fighters will get hit by HTTP GET Request bullets!**
 
 **Hint: Notice the changed endpoint 'fighters'**
 
@@ -239,7 +246,7 @@ The spy should now have exposed the secrets of the database where the Alien War 
 1. Check the spy for the credentials to the Alien War Ship's MySQL database where the coordinates for the Core Reactor is kept. Develop a MySQL query that queries the **SecretTable** to retrieve information about the Reactor Core coordinates! The Host IP address of the database is  **129.157.179.180**
 
 2. When you have the coordinates, hit the Reactor Core at the following URL:
-```http://129.157.179.180:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here(e.g yellow)/Your_microservice_name_goes_here(e.g YellowJava2Fighter)```.
+```http://129.157.179.180:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```.
 **The Reactor Core will get hit by HTTP GET Request bullets!**
 
 **Hint: Notice the changed endpoint 'reactorCore'**
