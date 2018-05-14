@@ -186,7 +186,8 @@ The Alien War Ship is protected by it's powerful shield. As long as we can't bre
 
 ### Mission Instructions ###
 
-1. To start firing at the shield, we first need to have the Alien War Ship exposing it's coordinates. In the Dashboard, click on the Spy to see what information he has to share.
+1. To start firing at the shield, we first need to have the Alien War Ship exposing it's coordinates. In the Dashboard, click on the Spy to see what information he has to share. You can navigate through the different missions by pressing Previous or Next.
+<img src="images/spy.PNG">
 
 2. We now need to fire at the coordinates of the shield! You will do this by changing the code in your microservice and deploy the new version. 
 
