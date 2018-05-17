@@ -7,7 +7,7 @@
 
 In this adventure you will pledge allegiance to one of the rebel squads, everyone sharing the same goal  – becoming the Dev Star.
 
-Choose your space fighter platform of choice (Node.js, Java or PHP) and develop and deploy cloud native microservices that will help defeat the Alien War Ship.
+Choose your space fighter platform of choice (Node.js, Java, PHP, Ruby, Go or Python) and develop and deploy cloud native microservices that will help defeat the Alien War Ship.
 
 To complete the different missions, you will build, manage and deploy cloud native microservices.
 
@@ -29,7 +29,7 @@ Fortunately, one of our companions is a spy, Tom Kurious, and he have managed to
 
 #### Objective ####
 
-By developing space fighters (microservices) in either Java, Node.js or PHP, you will complete missions in order to defeat the Alien War Ship. The missions will be explained in the instructions below, but you can't complete some of the missions without valuable information from the spy.
+By developing space fighters (microservices) in either Java, Node.js, PHP, Ruby, Go or Python, you will complete missions in order to defeat the Alien War Ship. The missions will be explained in the instructions below, but you can't complete some of the missions without valuable information from the spy.
 
 ## Scoring ##
 
@@ -42,14 +42,15 @@ Your squad will get points as you complete missions. When you have completed all
 + Weapon selection strategy is completely up to your preference.
 + Each git repository includes the basic code that is needed in order to run and deploy your microservice to the battle action!
 
-| [![Node](images/nodejs.png)](https://github.com/thebeebs/xwingnodeclient) | [![Java](images/javase.png)](https://github.com/thebeebs/xwingjavaclient) | [![PHP](images/php.png)](https://github.com/thebeebs/xwingphpclient) |
-|:---:|:---:|:---:|
 
 | Weapon        | Git Repo to Fork  |
 | ------------- | -----|
 | Node.js       |https://github.com/oracledevstar/nodecode|
 | Java SE     |   https://github.com/oracledevstar/javacode |
-|PHP | https://github.com/oracledevstar/phpcode |
+| PHP | https://github.com/oracledevstar/phpcode |
+|Ruby       |https://github.com/oracledevstar/rubycode|
+| Go    |   https://github.com/oracledevstar/gocode |
+| Python | https://github.com/oracledevstar/pythoncode |
 
 1. Click (or right click and open in a new tab) on your preferred weapon's Git repository above and fork into your own repository. 
 <img src="images/github_fork.PNG">
@@ -121,6 +122,18 @@ eg: // My microservice!
  **PHP**: Open the file *index.php* and edit the line on row 2 (below "<php") and insert a comment line.
 ```
 eg: // My microservice!
+```
+ **Ruby**: Open the file *app.rb* and insert a comment line.
+```
+eg: # My microservice!
+```
+ **Go**: Open the file *service.go* and insert a comment line in the main() function.
+```
+eg: // My microservice!
+```
+ **Python**: Open the file *app.py* and insert a comment line in the home() function.
+```
+eg: # My microservice!
 ```
 
 The screenshots below shows changing a file for the Node.js weapon
@@ -194,6 +207,9 @@ The Alien War Ship is protected by it's powerful shield. As long as we can't bre
 - For Java, the file is located at src/main/java/com/example/rest/App.java 
 - For Node.js, the file is located at xwingnodeclient/app.js 
 - For PHP, the file is located at index.php
+- For Ruby, the file is located at app.rb
+- For Go, the file is located at service.go
+- For Python, the file is located at app.py
 
 The base URL of the shield is ```http://129.157.179.180:3000/shield/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```. **The shield will get hit by HTTP GET Request bullets!**
 
@@ -246,7 +262,8 @@ The spy should now have exposed the secrets of the database where the Alien War 
 ### Mission Instructions ###
 1. Check the spy for the credentials to the Alien War Ship's MySQL database where the coordinates for the Core Reactor is kept. Develop a MySQL query that queries the **SecretTable** to retrieve information about the Reactor Core coordinates! The Host IP address of the database is  **129.157.179.180**
 
-Tip: For Java, you should check out src/main/java/com/example/rest/DBConnection.java
+Tip: For Java, you should also check out src/main/java/com/example/rest/DBConnection.java
+Tip: For Python, you should check out config.py
 
 2. When you have the coordinates, hit the Reactor Core at the following URL:
 ```http://129.157.179.180:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```.
