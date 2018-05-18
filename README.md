@@ -275,7 +275,7 @@ Tip: For Python, you should check out config.py
 
 4. When your updated microservice is live, it will hopefully hit the Alien War Ship's Reactor Core!
 
-5. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](../logs.md). 
+5. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](logs.md). 
 
 ### You are finished ###
 
