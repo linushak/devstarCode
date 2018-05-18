@@ -213,7 +213,7 @@ The Alien War Ship is protected by it's powerful shield. As long as we can't bre
 
 The base URL of the shield is ```http://129.157.179.180:3000/shield/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```. **The shield will get hit by HTTP GET Request bullets!**
 
-**Hint: Make sure that your code/function is actually being called **
+**Hint: Make sure that your code/function is actually being called**
 
 You need to look through your App.java, app.js or index.php file depending on your language and find out what changes you will need to make to invoke the shield's URL!
 
