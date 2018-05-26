@@ -113,7 +113,7 @@ You can either make changes in the GitHub editor (as shown below) or clone your 
 
  **Node.js**: Open the file *xwingnodeclient/app.js* and on the first line insert a comment line with some text.
 ```                       
-eg: // My microservice!
+// My microservice!
 ```
  **Java**: Open the file *src/main/java/com/example/rest/App.java* and on the first line insert a comment line.
 ```
