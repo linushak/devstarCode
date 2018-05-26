@@ -117,23 +117,23 @@ eg: // My microservice!
 ```
  **Java**: Open the file *src/main/java/com/example/rest/App.java* and on the first line insert a comment line.
 ```
- eg: // My microservice!
+ // My microservice!
 ```
  **PHP**: Open the file *index.php* and edit the line on row 2 (below "<php") and insert a comment line.
 ```
-eg: // My microservice!
+// My microservice!
 ```
  **Ruby**: Open the file *app.rb* and insert a comment line.
 ```
-eg: # My microservice!
+# My microservice!
 ```
  **Go**: Open the file *service.go* and insert a comment line in the main() function.
 ```
-eg: // My microservice!
+// My microservice!
 ```
  **Python**: Open the file *app.py* and insert a comment line in the home() function.
 ```
-eg: # My microservice!
+# My microservice!
 ```
 
 The screenshots below shows changing a file for the Node.js weapon
