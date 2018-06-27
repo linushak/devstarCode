@@ -23,7 +23,7 @@ The adventure is intense and a set of missions must be accomplished in order to 
 
 <img align="left" src="images/devstar_spy.png" width = "60px">
 
-Fortunately, one of our companions is a spy, Tom Kurious, and he have managed to sneak into the Alien War Ship. During our missions, he will report valueable information that might help us to bring down the Alien War Ship!
+Fortunately, one of our companions is a spy, Tom Kurious, and he has managed to sneak into the Alien War Ship. During our missions, he will report valueable information that might help us to bring down the Alien War Ship!
 
 ## How to play ##
 
@@ -248,38 +248,9 @@ The Alien War Ship has sent out 10 Mini Fighters to attack your fighters! You ne
 
 4. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](../logs.md).
 
-## Mission: Destroy the Reactor Core! ##
-
-### Mission Description ###
-
-<img align="right" src="images/spaceship_core.png" width = "400px">
-The spy should now have exposed the secrets of the database where the Alien War Ship stores the coordinates to it's Reactor Core! When our spy returns with the information, find out the coordinates and attack it with your fighter!
-
-### Mission Awards ###
-
-- Number of points for this mission: **500**
-
-### Mission Instructions ###
-1. Check the spy for the credentials to the Alien War Ship's MySQL database where the coordinates for the Core Reactor is kept. Develop a MySQL query that queries the **SecretTable** to retrieve information about the Reactor Core coordinates! The Host IP address of the database is  **129.157.179.180**
-
-Tip: For Java, you should also check out src/main/java/com/example/rest/DBConnection.java
-Tip: For Python, you should check out config.py
-
-2. When you have the coordinates, hit the Reactor Core at the following URL:
-```http://129.157.179.180:3000/reactorCore/x-coordinate_goes_here/y-coordinate_goes_here/Your_squad_color_goes_here/Your_microservice_name_goes_here```.
-**The Reactor Core will get hit by HTTP GET Request bullets!**
-
-**Hint: Notice the changed endpoint 'reactorCore'**
-
-3. Deploy a new version of your microservice by pushing the edited code to the Git repository in the same way as for your first deployment.
-
-4. When your updated microservice is live, it will hopefully hit the Alien War Ship's Reactor Core!
-
-5. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](logs.md). 
-
 ### You are finished ###
 
-Congratulations! You are finished and you have shut down the Alien War Ship. You can now title yourself a Dev Star. Check out the Hall of Fame on the dashboard for your final ranking!
+Congratulations! You are finished and you have shot down the Alien War Ship. You can now title yourself a Dev Star. Check out the Hall of Fame on the dashboard for your final ranking!
 
 
 
