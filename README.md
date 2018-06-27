@@ -221,7 +221,7 @@ You need to look through your App.java, app.js or index.php file depending on yo
 
 4. When your updated microservice is live, it will hopefully hit the Alien War Ship's shield! **Note: Whenever you deploy a new version of your microservice, the number of instances/fighters will be set to 1. So don't worry when you see only 1 fighter in the Dashboard - you still received points for that mission**
 
-5. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](../logs.md).
+5. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](logs.md).
 
 ## Mission: Shoot down the Mini Fighters ##
 
@@ -246,7 +246,7 @@ The Alien War Ship has sent out 10 Mini Fighters to attack your fighters! You ne
 
 3. When your updated microservice is live, it will hopefully hit the Mini Fighters sent out by the Alien War Ship!
 
-4. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](../logs.md).
+4. If you feel that your microservice is not behaving correctly or might not have been deployed correctly, have a look at the logs as described [here](logs.md).
 
 ### You are finished ###
 
