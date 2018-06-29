@@ -189,6 +189,8 @@ You need to enter your identity domain in the URL as: https://psm-YOUR_IDENTITY_
 
 ### Mission Description ###
 
+Remember: You can see the Dashboard here: http://bit.ly/DevStarUI
+
 You and your squad are ready and you should now have one or more microservices with at least one of them having 2 instances.
 <img align="right" src="images/spaceship_shield.png" width = "400px">
 The Alien War Ship is protected by it's powerful shield. As long as we can't break through the shield, we will have a hard time hitting the core reactors of the Alien War Ship.
